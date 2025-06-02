@@ -3,8 +3,9 @@
 
 const dier = require("./huisdier");
 
-const woef = dier.Huisdier("hond", "woef", 3);
+const woef = new dier.Huisdier("hond", "woef", 3);
 
+console.log(woef.print());
 console.log(woef);
 // resutlaat
 // > mijn hond woef is 3 jaar oud
